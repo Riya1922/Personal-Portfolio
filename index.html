@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riya's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Riya Malik</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Riya Malik</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="circular-image">
+      <img src="riya.png" alt="Circular Image">
+  </div>
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Riya Malik</h1>
+        <p class="section__text__p2"> Software Developer/Competitive Programmer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://drive.google.com/file/d/1EaEiyjktCZxHXAeImGhYf0bhcHhitMEb/view?usp=drivesdk'"
+          >
+            Resume
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/riya-malik-1b88a2232/'"
+          />
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Riya1922'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Coding Stats</h3>
+              <p>Solved over 1000 problems on Leetcode, <br />Codeforces and CodeChef</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Technology <br />Computer Science and Engineering<br/>IET Lucknow</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello! I’m <b>Riya Malik</b>, a final year <b>Computer Science and Engineering</b> student at <b>IET Lucknow</b>,India. Currently pursuing my B.Tech at the Institute of Engineering and Technology, I maintain a solid <b>8.7 CGPA</b>, reflecting my dedication to both academics and practical, hands-on projects.
+
+I am well-versed in <b>C++, Data Structures, and Algorithms</b>, which I apply to both competitive coding and real-world problem-solving. Additionally, I am proficient in <b>Javascript, React.js and Node.js</b>, having built dynamic and scalable web applications. A few of my key projects include Foodie Flow, an innovative web-based food ordering system, and Task Master, a streamlined task management application designed to enhance productivity.
+
+My active participation in competitive programming on platforms like CodeChef and Codeforces has sharpened my problem-solving and analytical skills. I am also passionate about collaboration and have successfully led and contributed to several team-driven projects. Always eager to take on new challenges, I am excited to connect, learn, and contribute to impactful projects. Let’s explore new possibilities together!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="c++.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="javascript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="React.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="node.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NodeJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="express.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ExpressJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="MongoDB.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="github.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GIT/GITHUB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Communication</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Decision Making</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adaptability</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Public Speaking</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TeamWork</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Time Management</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LeaderShip</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <!-- Foodie Flow Project -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="project1.jpg" alt="Project 1" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Foodie Flow</h2>
+              <p class="tech-stack"><b>Tech Stack</b>: HTML, CSS, JavaScript, React.js, NodeJS, MongoDB, Bootstrap</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/Foodie-Flow-app'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/Foodie-Flow-app'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+      
+            <!-- Task Master Project -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="proj2.jpg" alt="Project 2" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Task Master</h2>
+              <p class="tech-stack"><b>Tech Stack</b>: HTML, CSS, JavaScript, ReactJS, Redux</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/Todo-List-React'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://precious-starburst-aa0426.netlify.app/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+      
+            <!-- Currency Converter Project -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="proj3.jpg" alt="Project 3" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Currency Converter</h2>
+              <p class="tech-stack"><b>Tech Stack</b>: HTML, CSS, JavaScript, API Integration</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/Currency_Converter'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://riya1922.github.io/Currency_Converter/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="about-containers">
+            <!-- Amazon Clone Project -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="project4.jpg" alt="Project 4" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Amazon Clone</h2>
+              <p class="tech-stack"><b>Tech Stack</b>: HTML, CSS, JavaScript</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/Amazon-clone'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://riya1922.github.io/Amazon-clone/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+      
+            <!-- Basic Banking System Project -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="project5.jpg" alt="Project 5" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Basic Banking System</h2>
+              <p class="tech-stack"><b>Tech Stack</b>: HTML, CSS, JavaScript</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/Banking-system'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://riya1922.github.io/Banking-system/index.html'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+      
+            <!-- Calculator Project -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="project7.png" alt="Project 7" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Calculator</h2>
+              <p class="tech-stack"><b>Tech Stack</b>: HTML, CSS, JavaScript</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Riya1922/calculator'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://riya1922.github.io/calculator/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:riyamalik1929@gmail.com">riyamalik1929@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/riya-malik-1b88a2232/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><div class="contact-info-container">
+              <img
+                src="leetcode.png"
+                alt="LeetCode icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://leetcode.com/u/Riya_1905/">LeetCode</a></p>
+            </div></li>
+            <li><div class="contact-info-container">
+              <img
+                src="codeforces.png"
+                alt="codeforces icon"
+                class="icon codeforces-icon"
+              />
+              <p><a href="https://codeforces.com/profile/Riyamalik_21">Codeforces</a></p>
+            </div></li>
+            <li><div class="contact-info-container">
+              <img
+                src="codechef.png"
+                alt="CodeChef icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://www.codechef.com/users/riya_1905">CodeChef</a></p>
+              <li><div class="contact-info-container">
+              <img
+                src="cd1.jpeg"
+                alt="codingninjas icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://www.naukri.com/code360/profile/ad3474be-2cfc-4816-ae24-a357f1ee4308">Codingninjas</a></p>
+            </div></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Riya Malik. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
